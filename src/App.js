@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { BrowserRouter, Route, Switch } from "react-router-dom";
+import { HashRouter, Route, Switch } from "react-router-dom";
 import axios from "axios";
 
 import Nav from "./Components/Nav";
@@ -87,7 +87,7 @@ export default class App extends Component {
   //React Components inserted as well as Routes
   render() {
     return (
-      <BrowserRouter basename="/React-Gallery-App/">
+      <HashRouter basename="/React-Gallery-App/">
         <div>
           <h1>React Gallery App</h1>
           <Route render={() => <SearchForm onSearch={this.photoSearch} />} />
@@ -134,7 +134,7 @@ export default class App extends Component {
             <Route component={PageNotFound} />
           </Switch>
         </div>
-      </BrowserRouter>
+      </HashRouter>
     );
   }
 }

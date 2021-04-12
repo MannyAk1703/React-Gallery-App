@@ -87,7 +87,7 @@ export default class App extends Component {
   //React Components inserted as well as Routes
   render() {
     return (
-      <BrowserRouter>
+      <BrowserRouter basename="/React-Gallery-App">
         <div>
           <h1>React Gallery App</h1>
           <Route render={() => <SearchForm onSearch={this.photoSearch} />} />

@@ -1,7 +1,8 @@
 body {
   text-align: center;
-  font-family: 'Open Sans', sans-serif;
-  color: #3f4850;
+  font-family: "Open Sans", sans-serif;
+  color: #9b0cdd;
+  background-color: black;
 }
 
 h2 {
@@ -27,7 +28,7 @@ a {
 
 .search-form button {
   outline: none;
-  background-color: #438bbd;
+  background-color: #5943bd;
   border: none;
   padding: 0px 15px;
   border-radius: 0 0.35em 0.35em 0;
@@ -39,7 +40,7 @@ input {
   width: 100%;
   background-color: #edeff0;
   padding: 10px 15px;
-  border: 3px solid #d7dbdf;
+  border: 3px solid #5943bd;
   border-right: none;
   border-radius: 0.35em 0 0 0.35em;
   outline: none;
@@ -52,7 +53,7 @@ input {
 
 .main-nav a {
   display: block;
-  background: #438bbd;
+  background: #5943bd;
   border-radius: 3px;
   padding: 5px;
   color: #fff;
@@ -61,7 +62,7 @@ input {
 .main-nav .active,
 .main-nav a:hover,
 .search-form button:hover {
-  background-color: #275270;
+  background-color: #574994;
 }
 
 .photo-container ul {
@@ -75,6 +76,7 @@ input {
 .photo-container ul li {
   width: 220px;
   height: 165px;
+  border: 3px solid #574994;
   overflow: hidden;
   margin-bottom: 15px;
 }
@@ -93,7 +95,7 @@ input {
   width: 100%;
 }
 
-@media only screen and (max-width: 767px)  {
+@media only screen and (max-width: 767px) {
   body {
     padding-top: 2em;
   }
@@ -103,7 +105,7 @@ input {
   }
 }
 
-@media only screen and (min-width: 768px)  {
+@media only screen and (min-width: 768px) {
   body {
     padding-top: 4em;
   }
@@ -117,7 +119,7 @@ input {
     display: flex;
     justify-content: center;
   }
-  
+
   .main-nav li {
     margin: 10px;
     width: 100px;

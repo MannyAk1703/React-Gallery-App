@@ -13,7 +13,7 @@ class SearchForm extends Component {
   handleSubmit = (e) => {
     e.preventDefault();
     let query = this.query.value;
-    let path = ``;
+    let path = `/search/${query}`;
     //adds the empty string to the url so it can reload
     this.props.history.push(path);
     this.props.onSearch(query);

@@ -128,7 +128,7 @@ export default class App extends Component {
             />
 
             <Route
-              path="/search/:topic"
+              path="/"
               render={(props) => <PhotoContainer data={this.state.photos} />}
             />
             <Route component={PageNotFound} />

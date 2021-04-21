@@ -6,7 +6,7 @@ import Nav from "./Components/Nav";
 import SearchForm from "./Components/SearchForm";
 import PhotoContainer from "./Components/PhotoContainer";
 import PageNotFound from "./Components/PageNotFound";
-import apiKey from "./config";
+import apiKey from "../config";
 
 //All major components rendered here
 export default class App extends Component {
